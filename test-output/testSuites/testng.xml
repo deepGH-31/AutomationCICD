@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+
+<listeners>
+<listener class-name="ECommerce.TestComponent.Listeners"></listener>
+</listeners>
+
+<test thread-count="5" name="SubmitOrdersTest">
+    <classes>
+      <class name="ECommerce.Tests.SubmitOrdersTest"/>
+    </classes>
+</test>
+
+  <test thread-count="5" name="ErrorValidationsTest">
+    <classes>
+      <class name="ECommerce.Tests.ErrorValidationsTest"/>
+    </classes>
+  </test>
+    
+   
+</suite> <!-- Suite -->
