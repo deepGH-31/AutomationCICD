@@ -12,7 +12,7 @@ import org.openqa.selenium.*;
 public class StandAloneTest {
 
 	public static void main(String[] args) throws InterruptedException {
-		
+		//new comment
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		String prodName = "ADIDAS ORIGINAL";
